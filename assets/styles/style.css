@@ -1,3 +1,11 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header-text {
+  font-family: "Bellefair", sans-serif;
+}
+
 .home-header {
   height: 100vh;
   background-image: url("../../assets/img/home/home-header.png");
