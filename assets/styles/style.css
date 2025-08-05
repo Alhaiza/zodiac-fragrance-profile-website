@@ -63,7 +63,7 @@ body {
 
 .marketplace-header {
   height: 100vh;
-  background-image: url("../../assets/img/product/product-header.png");
+  background-image: url("../../assets/img/marketplace/marketplace-header.png");
   background-size: cover; /* fill screen */
   background-position: center; /* center image */
   background-repeat: no-repeat;
@@ -76,10 +76,12 @@ body {
 
 .contact-header {
   height: 100vh;
-  background-image: url("../../assets/img/product/product-header.png");
-  background-size: cover; /* fill screen */
-  background-position: center; /* center image */
+  background-image: url("../../assets/img/contact/contact-header.png");
+  background-size: cover;
+  background-position: center top -150px; /* move image up */
   background-repeat: no-repeat;
+  padding-top: 80px; /* push content down */
+  box-sizing: border-box;
 }
 
 .contact-header-overlay {
